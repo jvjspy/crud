@@ -49,7 +49,7 @@ public class UserController extends HttpServlet {
 		User u = ud.getUser(email);
 		//
 		ud.deleteUser(u);
-		response.sendRedirect(getServletContext().getContextPath());
+		response.sendRedirect(getServletContext().getContextPath()+"/user-management");
 	}
 
 	private void showForm(ServletRequest request, ServletResponse response, String action)
@@ -79,7 +79,7 @@ public class UserController extends HttpServlet {
 		} else {
 			ud.updateUser(u);
 		}
-		response.sendRedirect(getServletContext().getContextPath());
+		response.sendRedirect(getServletContext().getContextPath()+"/user-management");
 	}
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

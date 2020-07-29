@@ -4,9 +4,9 @@
 <hibernate-configuration>
  <session-factory>
   <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-  <property name="hibernate.connection.password">root</property>
-  <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/postgres</property>
-  <property name="hibernate.connection.username">postgres</property>
+  <property name="hibernate.connection.password">4422d0bbbb7f834550805ac7af4fc7031ef673ab61c7e7db7df10b0461ddf13c</property>
+  <property name="hibernate.connection.url">jdbc:postgresql://ec2-52-22-216-69.compute-1.amazonaws.com:5432/d3srlhgblinpa7</property>
+  <property name="hibernate.connection.username">nphckdefohuduj</property>
   <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
   <mapping class="chung.crud.model.User"/>
  </session-factory>
