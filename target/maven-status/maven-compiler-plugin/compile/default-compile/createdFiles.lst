@@ -1,0 +1,4 @@
+chung\crud\controller\UserController.class
+chung\crud\model\User.class
+chung\crud\dao\DBConnection.class
+chung\crud\dao\UserDAO.class
